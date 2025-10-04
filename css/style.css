@@ -78,8 +78,11 @@ a{
 
 .first-content .right-content{
     flex-basis: 50%;
-    background-color: #E5E7EB;
+    /* background-color: #E5E7EB; */
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .sign-up{
@@ -96,13 +99,15 @@ a{
 
 
 .second-section{
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
     height: 400px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .second-section .title{
@@ -117,7 +122,10 @@ a{
     height: 40%;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    align-content: center;
+    gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img-container .text{
@@ -125,15 +133,19 @@ a{
     flex-basis: auto;
     text-align: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .info .photo-info{
     /* flex-basis: 80px; */
     align-items: center;
-    border-color: #3882F6;
-    border-style: solid;
+    align-content: center;
+    align-self: center;
+    /* border-color: #3882F6; */
+    /* border-style: solid; */
     border-radius: 5%;
     height: 100%;
+    width: 80%;
 }
 
 .third-section{
@@ -149,7 +161,7 @@ a{
 .third-section .text-msg{
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
+    font-weight: 100;
     /* width: 70%; */
     margin-right: 15%;
     margin-left: 15%;
@@ -165,7 +177,7 @@ a{
 }
 
 .fourth-section{
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,10 +187,11 @@ a{
 .fourth-section .card{
     background-color: #3882F6;    
     width: 80%;
-    height: 40%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     /* padding: 15px; */
 }
 
